@@ -12,10 +12,15 @@
                     <br>
                     <div class="container columns is-centered">
                         <div>
-                            <a href="{{site.url}}{{site.baseurl}}/#contact"
-                                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined">Contact
-                                Me</a>
+                            <a id="contact-button" 
+                                href="mailto:{{site.email}}"
+                                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
+                                target="_blank">
+                                <i class="fas fa-envelope">
+                                </i>
+                                Contact Me
                             </a>
+
                         </div>
                         <div>
                             <a href="{{site.url}}{{site.baseurl}}/blog"
