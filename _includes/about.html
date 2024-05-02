@@ -2,24 +2,49 @@
     <div class="hero-body">
         <div class="container">
             <div class="columns">
-                <div class="column is-one-fifth-desktop is-one-fifth-tablet is-one-fifth-fullhd">
+                <div class="column is-one-sixth-desktop is-one-sixth-tablet is-one-sixth-fullhd">
                     <figure class="image">
-                        <img class="is-rounded" src="{{site.author-image}}" alt="{{site.author-name}}">
+                        <img class="is-rounded" 
+                            src="{{site.url}}{{site.baseurl}}/assets/images/headshot.jpeg" 
+                            alt="{{site.author-name}}">
                     </figure>
                 </div>
                 <div class="column has-text-left-desktop has-text-left-tablet has-text-left-fullhd has-text-left-widescreen">
-                    <p>Hello World! I am a data analyst with a background in applied economics and eletrical engineering. I obtained my B.S. in Electrical Engineering from the University of Connecticutt in 2016 and worked in product development until 2021. I decided to change the trajectory of my career by going back to school for economics and data analysis. I enrolled at Boston College in 2022, finishing in 2023 with an M.S in Applied Economics and a Data Analysis Certificate. I am currently looking to apply my talents in data analysis!</p>
+                    <p>Newly graduated data analyst with a professional background in product management and an educational background in data analysis, applied econonmics, electrical engineering, and mathematics. A career of problem-solving; demonstrating technical proficiency, effective interpersonal skills, and a willingness to adapt and take initiative. Skilled professional in R, SQL, and Tableau; capable of obtaining, cleaning, visualizing, and generating machine-learning models with data. Motivated to apply and expand data analysis skill set.</p>
                     <br>
                     <div class="container columns is-centered">
                         <div>
-                            <a href="{{site.url}}{{site.baseurl}}/#contact"
-                                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined">Contact
-                                Me</a>
+                            <a id="contact-button" 
+                                href="mailto:{{site.email}}"
+                                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
+                                target="_blank">
+                                <i class="fas fa-envelope">
+                                </i>
+                                Contact Me
                             </a>
                         </div>
                         <div>
                             <a href="{{site.url}}{{site.baseurl}}/blog"
                                 class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined">Projects</a>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="{{site.url}}{{site.baseurl}}/assets/ConnorBailey_Resume.pdf" 
+                                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined"
+                                download="ConnorBailey_Resume">Resume</a>
+                        </div>
+                    </div>
+                    <div class="container columns is-centered">
+                        <div>
+                            <a href="http://www.linkedin.com/in/{{site.linkedin_username}}" 
+                            target="_blank" 
+                            class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined">LinkedIn
+                        </a>
+                        </div>
+                        <div> 
+                            <a href="http://www.github.com/{{site.github_username}}" 
+                                target="_blank" 
+                                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined">GitHub
                             </a>
                         </div>
                     </div>
